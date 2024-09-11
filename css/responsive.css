@@ -1,0 +1,273 @@
+@media only screen and (max-width: 1025px) {
+    .container {
+        width: 970px !important;
+    }
+
+    .sec-1 .services {
+        width: 155px;
+    }
+
+    .recom-serv {
+        width: 310px;
+        margin-bottom: 20px;
+    }
+
+    .recom-serv button {
+        left: 10px;
+    }
+
+    .recom-serv:nth-of-type(2n) {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+
+    .container {
+        width: auto !important;
+    }
+
+    .sec-header {
+        background-color: #faebd7;
+    }
+
+    .sec-hero {
+        background-color: #faebd7;
+        height: 480px;
+    }
+
+    .sec-hero-form-1 .col-md-4,
+    .sec-hero-form-1 .col-md-8 {
+        padding: 0 !important;
+    }
+
+    .sec-hero p {
+        display: none;
+    }
+
+    .sec-hero-form-2 {
+        height: 460px;
+    }
+
+    .sec-1 .services {
+        width: 145px;
+        height: 160px;
+    }
+
+    .recom-serv {
+        width: 365px;
+    }
+
+    iframe {
+        width: 240px;
+    }
+
+    .sec-6 img {
+        width: 99px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .mobile-app {
+        display: block !important;
+    }
+
+    .sec-5 .sec-5-text {
+        align-items: center;
+    }
+
+    .sec-5-barcode {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sec-5-barcode p {
+        padding: 0 !important;
+    }
+
+    .sec-footer {
+        height: 570px;
+    }
+
+    .sec-span-1 {
+        top: 80px;
+    }
+
+    .sec-span-2,
+    .sec-span-4 {
+        top: 60px;
+    }
+
+    .track-btn {
+        width: 25%;
+    }
+
+    .sec-15-bg-img .heading-4 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .sec-hero {
+        height: 765px;
+    }
+
+    .sec-1 .services {
+        width: 125px;
+    }
+
+    .recom-serv {
+        width: 100%;
+    }
+
+    .recom-serv button {
+        left: 17px;
+    }
+
+    iframe {
+        width: 200px;
+    }
+
+    .sec-text-1 {
+        margin-left: 15px;
+        padding: 15px 45px;
+    }
+
+    .sec-text-2 {
+        margin-right: 15px;
+        padding: 15px 45px;
+    }
+
+    .sec-text-1 p,
+    .sec-text-2 p {
+        margin: 0;
+    }
+
+    .sec-footer {
+        height: 730px;
+    }
+
+    .sec-footer-1 {
+        flex-wrap: wrap;
+    }
+
+    .footer-1 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .footer {
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .sec-footer-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sec-footer-2 .heading-5 {
+        display: none;
+    }
+
+    .footer-p {
+        display: block !important;
+    }
+
+    .icon {
+        margin-left: 0 !important;
+    }
+
+    .sec-footer-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-footer-3 p {
+        display: none;
+    }
+
+    .sec-footer-3 .footer-ul {
+        margin-left: 0 !important;
+    }
+
+    .track-btn {
+        width: 30%;
+    }
+
+    .sec-15-bg-img .heading-4 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .sec-hero {
+        height: 820px;
+    }
+
+    .sec-hero-form-1 {
+        width: 100%
+    }
+
+    .sec-1-text {
+        justify-content: center !important;
+    }
+
+    .sec-1 .services {
+        width: 160px;
+        margin: 5px;
+    }
+
+    .recom-serv button {
+        left: 10px;
+    }
+
+    .sec-4,
+    .sec-5,
+    .sec-6 {
+        padding: 10px 0 !important;
+    }
+
+    .sec-text-1,
+    .sec-text-2 {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 15px;
+        padding-top: 45px;
+    }
+
+    .sec-text-2 {
+        margin-right: 0;
+    }
+
+    .sec-hero-1 {
+        height: 295px;
+    }
+
+    .sec-span-1,
+    .sec-span-2,
+    .sec-span-4 {
+        top: -42px;
+        left: 130px;
+    }
+
+    .sec-footer {
+        height: 850px;
+    }
+
+    .track-btn {
+        width: 100%;
+    }
+
+    .sec-15-text {
+        width: 47%;
+    }
+
+    .sec-15-bg-img {
+        width: 47%;
+    }
+}

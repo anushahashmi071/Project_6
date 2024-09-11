@@ -1,0 +1,657 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #333;
+}
+
+.container {
+  max-width: 1170px !important;
+}
+
+/* heading-1 */
+.heading-1 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+/* heading-2 */
+.heading-2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* heading-3 */
+.heading-3 {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* heading-4 */
+.heading-4 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* heading-5 */
+.heading-5 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* heading-6 */
+.heading-6 {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+/* navbar */
+.navbar ul li a {
+  font-weight: 700;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.navbar span {
+  background-color: #f86202;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+
+/* sec-hero */
+.sec-hero-text .heading-1 span {
+  color: #f86202;
+}
+
+.sec-hero-form-1 {
+  border: 1px solid #ccc;
+  box-shadow: 1px 3px 5px 1px #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.sec-hero-form-1 select {
+  border: transparent;
+}
+
+.sec-hero-form-1 span {
+  position: absolute;
+  right: 15px;
+  top: 9px;
+}
+
+.sec-hero-form-1 input {
+  border: transparent;
+  width: 100% !important;
+}
+
+.sec-hero-form-2 {
+  background-image: url(../images/book-form-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 410px;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff !important;
+}
+
+.sec-hero-form-2 h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.sec-hero-form-2 input {
+  height: 35px !important;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.sec-btn {
+  color: #fff;
+  background-color: #f86202;
+  border: 0;
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sec-btn::after {
+  background-color: #fff;
+  box-shadow: 0 0 24px 2px #fff;
+  content: "";
+  width: 48px;
+  height: 56px;
+  position: absolute;
+  transform: skew(-27deg);
+  top: 0;
+  left: -60px;
+  opacity: 0.3;
+  animation: btn-name 2.3s ease-in 3s infinite normal forwards;
+}
+
+@keyframes btn-name {
+  0% {
+    left: -15%;
+  }
+
+  50% {
+    left: 100%;
+  }
+
+  100% {
+    left: 120%;
+  }
+}
+
+/* sec-1 */
+.sec-1 .services {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 30px 5px;
+  height: 128px;
+  width: 225px;
+}
+
+.sec-1 .services:hover {
+  background-color: #f1f0f0;
+}
+
+.services-img {
+  width: 40px;
+  margin-bottom: 8px;
+}
+
+.recom-serv {
+  position: relative;
+  height: 300px;
+  display: block;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 275px;
+  border-radius: 15px;
+  padding: 0 10px;
+  color: #fff;
+}
+
+#recom-ser-1 {
+  background-image: url(../images/ac-service.jpg);
+  display: block;
+}
+
+#recom-ser-2 {
+  background-image: url(../images/sofa-cleaning.jpg);
+  display: block;
+}
+
+#recom-ser-3 {
+  background-image: url(../images/carpet-cleaning.jpg);
+  display: block;
+}
+
+#recom-ser-4 {
+  background-image: url(../images/deep-cleaning\ -\ Copy.jpg);
+  display: block;
+}
+
+#recom-ser-5 {
+  background-image: url(../images/washing-machine-repair.jpg);
+  display: block;
+}
+
+#recom-ser-6 {
+  background-image: url(../images/fridge-service.jpg);
+  display: block;
+}
+
+#recom-ser-7 {
+  background-image: url(../images/microwave-repair.jpg);
+  display: block;
+}
+
+#recom-ser-8 {
+  background-image: url(../images/pest-control-service.jpg);
+  display: block;
+}
+
+#recom-ser-9 {
+  background-image: url(../images/makeup.jpg);
+  display: block;
+}
+
+#recom-ser-10 {
+  background-image: url(../images/waxing.jpg);
+  display: block;
+}
+
+#recom-ser-11 {
+  background-image: url(../images/facial.jpg);
+  display: block;
+}
+
+#recom-ser-12 {
+  background-image: url(../images/water-tank-service.jpg);
+  display: block;
+}
+
+.recom-serv::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000002e;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  border-radius: 15px;
+}
+
+.recom-serv button {
+  position: absolute;
+  bottom: 15px;
+  left: 7px;
+  width: 95%;
+}
+
+.recom-serv h2 {
+  font-size: 28px;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 3;
+  position: absolute;
+  left: 0;
+  transform: translate3d(0, 110px, 0);
+  width: 100%;
+  text-align: center;
+  transition: all ease-in-out 0.3s;
+  padding: 0 20px;
+  margin: 0;
+  height: 100%;
+}
+
+.recom-serv:hover h2 {
+  font-size: 20px;
+  transform: translate3d(0, 20px, 0);
+  height: 100%;
+}
+
+.recom-serv p {
+  text-align: center;
+  opacity: 0;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  overflow: hidden;
+  z-index: 3;
+  padding: 0 20px;
+  transition: all ease-in-out 0.3s;
+}
+
+.recom-serv:hover p {
+  opacity: 1;
+  bottom: 75px;
+}
+
+.recom-serv a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.recom-serv:nth-of-type(2n) {
+  margin-top: 30px;
+}
+
+/* sec-3 */
+.sec-3 iframe {
+  border-radius: 15px;
+}
+
+.slider .slick-arrow {
+  display: none !important;
+}
+
+.prev-item {
+  font-size: 20px;
+  position: absolute;
+  left: 7px;
+  bottom: 150px;
+  background-color: #ffffff70;
+  padding: 20px 2px;
+}
+
+.next-item {
+  font-size: 20px;
+  position: absolute;
+  right: 7px;
+  bottom: 150px;
+  background-color: #ffffff70;
+  padding: 20px 2px;
+}
+
+/* sec-5 */
+.sec-5 {
+  background-color: #f5f5f5 !important;
+}
+
+.sec-5-img img {
+  width: 130px;
+}
+
+.sec-5-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile {
+  width: 250px;
+  float: right;
+}
+
+.barcode {
+  width: 200px;
+}
+
+/* sec-footer */
+.sec-footer {
+  background-image: url(../images/footer-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 397px;
+  padding: 50px 0;
+}
+
+.footer-1 {
+  width: 25%;
+  margin-right: 100px;
+}
+
+.footer {
+  padding-left: 34px;
+  width: 20%;
+}
+
+.sec-footer h3 {
+  padding-bottom: 15px;
+}
+
+.sec-footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sec-footer ul li {
+  list-style: none;
+  font-size: 13px;
+}
+
+.sec-footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sec-footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.sec-footer p {
+  font-size: 13px;
+}
+
+.sec-footer-2 a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.sec-footer-2 a:hover {
+  color: #f86202;
+  border: 1px solid #f86202;
+  transition: all ease-in-out 0.3s;
+}
+
+.sec-footer-3 .sec-li {
+  position: relative;
+}
+
+.sec-footer-3 .sec-li::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  left: -10px;
+  width: 2px;
+  height: 100%;
+}
+
+.whatsapp-btn {
+  background-color: #4caf50;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  font-size: 35px;
+  height: 55px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.whatsapp-btn a {
+  color: #fff;
+}
+
+.whatsapp-btn:hover {
+  background-color: #338736;
+}
+
+/* why-kamkaj */
+.sec-header-1 {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.sec-hero-1 {
+  background-image: url(../images/banner-bg.png);
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 70% 100%;
+  position: relative;
+}
+
+.sec-hero-1-text {
+  padding-top: 12%;
+}
+
+.sec-text-1 {
+  box-shadow: 1px 1px 2px 2px #cccccc94;
+  padding: 30px 60px;
+  position: relative;
+  margin-left: 100px;
+}
+
+.sec-text-2 {
+  box-shadow: 1px 1px 2px 2px #cccccc94;
+  padding: 30px 70px;
+  position: relative;
+  margin-right: 100px;
+}
+
+.sec-span-1 {
+  background-color: #f86202;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: absolute;
+  top: 55px;
+  left: -35px;
+}
+
+.sec-span-2,
+.sec-span-4 {
+  background-color: #f86202;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: absolute;
+  top: 35px;
+  right: -25px;
+}
+
+.sec-span-4 {
+  top: 70px;
+}
+
+/* section-12-css */
+.sec-12 .heading-3 {
+  color: #f86202;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sec-12-form {
+  box-shadow: 1px 1px 2px 2px #cccccc94;
+  padding: 20px 30px;
+  border-top: 2px dashed #ccc;
+}
+
+.sec-12-form span {
+  color: #f86202;
+  font-size: 7px;
+  margin-left: 5px;
+}
+
+/* track-my-order
+ section-13-css */
+.sec-13 .heading-4 {
+  font-weight: 400;
+  float: right;
+}
+
+.sec-13 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sec-13 .row {
+  width: 80%;
+  margin: auto;
+}
+
+.sec-13-text {
+  margin-top: 100px;
+}
+
+.track-btn {
+  color: #fff;
+  background-color: #f86202;
+  border: 0;
+  height: 40px;
+  width: 20%;
+  border-radius: 8px;
+  float: right;
+  font-size: 20px;
+}
+
+.track-btn:hover {
+  box-shadow: 2px 2px 4px 4px #cccccc;
+}
+
+/* Work-with-us */
+.sec-15-text .heading-6 {
+  font-weight: 700;
+  padding-top: 15px;
+  text-transform: none;
+}
+
+.sec-15-text .heading-6:hover {
+  text-decoration: underline 2px #d95802;
+}
+
+.sec-15-text {
+  width: 23%;
+  height: 180px;
+  text-align: center;
+  box-shadow: 1px 1px 2px 2px #cccccc94;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.sec-15-bg-img {
+  background-image: url(../images/learning-tile-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  width: 23%;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sec-15-bg-img .heading-4 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  text-transform: none;
+}
+
+.sec-15-bg-img .heading-4 span {
+  color: #ffd277;
+}
+
+.sec-15-bg-img .heading-4:hover {
+  text-decoration: underline 2px #d95802;
+}
